@@ -18,9 +18,9 @@ DELF library.
 mkdir -p ~/detect_to_retrieve/data && cd ~/detect_to_retrieve/data
 
 # Oxford dataset.
-wget http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/oxbuild_images.tgz
+wget https://www.robots.ox.ac.uk/~vgg/data/oxbuildings/oxbuild_images-v1.tgz
 mkdir oxford5k_images
-tar -xvzf oxbuild_images.tgz -C oxford5k_images/
+tar -xvzf oxbuild_images-v1.tgz -C oxford5k_images/
 
 # Paris dataset. Download and move all images to same directory.
 wget http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/paris_1.tgz
